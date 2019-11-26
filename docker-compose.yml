@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+
+  web-client-react-1-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - /usr/web-client-react-1/node_modules
+      - .:/usr/web-client-react-1
+    restart: always
+
+  web-client-react-1-test:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+
+  web-client-react-1-prod:
+    build: .
+    ports:
+      - "8080:80"
+
