@@ -8,16 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello TC
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
           AWS Elastic Beanstalk Deployment
-        </a>
+        </p>
       </header>
     </div>
   );
