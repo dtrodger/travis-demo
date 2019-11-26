@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          AWS Elastic Beanstalk Deployment
         </a>
       </header>
     </div>
