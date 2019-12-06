@@ -9,8 +9,8 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - /usr/web-client-react-1/node_modules
-      - .:/usr/web-client-react-1
+      - /usr/web-web_client-react-1/node_modules
+      - .:/usr/web-web_client-react-1
     restart: always
 
   web-client-react-1-test:
